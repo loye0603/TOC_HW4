@@ -14,12 +14,12 @@ public class TocHW4 {
                 String city,roadname,price,address,jsonString1="",line,URLNAME;
                   int count=0,number=1,namenum=0;
                 
-                  //URLNAME=args[0];
-                // connect to URL
+                  URLNAME=args[0];
+                  /*connect to URL*/
                   HttpURLConnection conn = null;
-                  URL url = new URL(
-                          "http://www.datagarage.io/api/5385b69de7259bb37d925971");  
-                  //URL url = new URL(URLNAME);  
+                 /* URL url = new URL(
+                          "http://www.datagarage.io/api/5385b69de7259bb37d925971");*/  
+                  URL url = new URL(URLNAME);  
                   conn = (HttpURLConnection) url.openConnection();
                
                   conn.setRequestMethod("GET");
