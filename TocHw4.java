@@ -6,7 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.json.*;
 
-public class TocHW4 {
+public class TocHw4 {
         private static Object obj;
         public static void main(String[] args) throws Exception {
                 try
